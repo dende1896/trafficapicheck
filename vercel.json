@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "functions": {
+    "api/filtered_flow.js": {
+      "memory": 128,
+      "maxDuration": 10
+    }
+  },
+  "routes": [
+    {
+      "src": "/api/filtered_flow",
+      "dest": "/api/filtered_flow.js"
+    }
+  ]
+}
