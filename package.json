@@ -1,0 +1,11 @@
+{
+  "name": "traffic-check",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "node local_test.js"
+  },
+  "dependencies": {
+    "axios": "^0.21.1"
+  }
+}
