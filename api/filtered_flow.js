@@ -5,7 +5,7 @@ module.exports = async (req, res) => {
     const bbox = req.query.bbox;
     const locationReferencing = req.query.locationReferencing || 'shape';
     const responseattributes = req.query.responseattributes || 'sh,fc';
-    const jamFactorThreshold = parseInt(req.query.jamFactor, 10) || 4;
+    const jamFactorThreshold = parseInt(req.query.jamFactor, 10) || 2;
 
     const url = 'https://data.traffic.hereapi.com/v7/flow';
     const params = {
